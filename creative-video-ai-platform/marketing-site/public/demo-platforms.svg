@@ -1,0 +1,125 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e2e8f0"/>
+    </linearGradient>
+    <filter id="shadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="douyinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="bilibiliGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00a1d6"/>
+      <stop offset="100%" style="stop-color:#fb7299"/>
+    </linearGradient>
+    <linearGradient id="xiaohongshuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff2442"/>
+      <stop offset="100%" style="stop-color:#ff6b9d"/>
+    </linearGradient>
+    <linearGradient id="youtubeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff0000"/>
+      <stop offset="100%" style="stop-color:#cc0000"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGradient3)"/>
+
+  <g transform="translate(40, 30)">
+    <rect width="720" height="440" fill="white" rx="8" filter="url(#shadow3)"/>
+    
+    <g transform="translate(30, 25)">
+      <text x="0" y="0" font-size="16" fill="#1e293b" font-weight="bold">多平台封面适配</text>
+      <text x="0" y="22" font-size="11" fill="#64748b">一键生成符合各平台尺寸规范的封面图</text>
+      
+      <g transform="translate(0, 50)">
+        <g>
+          <rect width="160" height="90" rx="4" fill="url(#douyinGrad)"/>
+          <text x="80" y="30" font-size="14" fill="white" font-weight="bold" text-anchor="middle">抖音</text>
+          <text x="80" y="52" font-size="9" fill="#a0aec0" text-anchor="middle">1080×1920</text>
+          <text x="80" y="68" font-size="9" fill="#a0aec0" text-anchor="middle">9:16 竖版</text>
+          <circle cx="80" cy="78" r="3" fill="#22c55e"/>
+        </g>
+        
+        <g transform="translate(180, 0)">
+          <rect width="160" height="90" rx="4" fill="url(#bilibiliGrad)"/>
+          <text x="80" y="30" font-size="14" fill="white" font-weight="bold" text-anchor="middle">B站</text>
+          <text x="80" y="52" font-size="9" fill="#a0aec0" text-anchor="middle">1920×1080</text>
+          <text x="80" y="68" font-size="9" fill="#a0aec0" text-anchor="middle">16:9 横版</text>
+          <circle cx="80" cy="78" r="3" fill="#22c55e"/>
+        </g>
+        
+        <g transform="translate(360, 0)">
+          <rect width="160" height="90" rx="4" fill="url(#xiaohongshuGrad)"/>
+          <text x="80" y="30" font-size="14" fill="white" font-weight="bold" text-anchor="middle">小红书</text>
+          <text x="80" y="52" font-size="9" fill="#a0aec0" text-anchor="middle">1242×1660</text>
+          <text x="80" y="68" font-size="9" fill="#a0aec0" text-anchor="middle">3:4 竖版</text>
+          <circle cx="80" cy="78" r="3" fill="#22c55e"/>
+        </g>
+        
+        <g transform="translate(540, 0)">
+          <rect width="160" height="90" rx="4" fill="url(#youtubeGrad)"/>
+          <text x="80" y="30" font-size="14" fill="white" font-weight="bold" text-anchor="middle">YouTube</text>
+          <text x="80" y="52" font-size="9" fill="#a0aec0" text-anchor="middle">1280×720</text>
+          <text x="80" y="68" font-size="9" fill="#a0aec0" text-anchor="middle">16:9 横版</text>
+          <circle cx="80" cy="78" r="3" fill="#22c55e"/>
+        </g>
+      </g>
+      
+      <g transform="translate(0, 160)">
+        <g>
+          <rect width="160" height="90" rx="4" fill="#ef4444"/>
+          <text x="80" y="30" font-size="14" fill="white" font-weight="bold" text-anchor="middle">快手</text>
+          <text x="80" y="52" font-size="9" fill="#fecaca" text-anchor="middle">1080×1920</text>
+          <text x="80" y="68" font-size="9" fill="#fecaca" text-anchor="middle">9:16 竖版</text>
+          <circle cx="80" cy="78" r="3" fill="#22c55e"/>
+        </g>
+        
+        <g transform="translate(180, 0)">
+          <rect width="160" height="90" rx="4" fill="#07c160"/>
+          <text x="80" y="30" font-size="14" fill="white" font-weight="bold" text-anchor="middle">视频号</text>
+          <text x="80" y="52" font-size="9" fill="#a7f3d0" text-anchor="middle">1080×1260</text>
+          <text x="80" y="68" font-size="9" fill="#a7f3d0" text-anchor="middle">6:7 竖版</text>
+          <circle cx="80" cy="78" r="3" fill="#22c55e"/>
+        </g>
+        
+        <g transform="translate(360, 0)">
+          <rect width="160" height="90" rx="4" fill="#0084ff"/>
+          <text x="80" y="30" font-size="14" fill="white" font-weight="bold" text-anchor="middle">知乎</text>
+          <text x="80" y="52" font-size="9" fill="#bfdbfe" text-anchor="middle">1200×675</text>
+          <text x="80" y="68" font-size="9" fill="#bfdbfe" text-anchor="middle">16:9 横版</text>
+          <circle cx="80" cy="78" r="3" fill="#22c55e"/>
+        </g>
+        
+        <g transform="translate(540, 0)">
+          <rect width="160" height="90" rx="4" fill="#ff9500"/>
+          <text x="80" y="30" font-size="14" fill="white" font-weight="bold" text-anchor="middle">西瓜视频</text>
+          <text x="80" y="52" font-size="9" fill="#fed7aa" text-anchor="middle">1080×1920</text>
+          <text x="80" y="68" font-size="9" fill="#fed7aa" text-anchor="middle">9:16 竖版</text>
+          <circle cx="80" cy="78" r="3" fill="#22c55e"/>
+        </g>
+      </g>
+      
+      <g transform="translate(0, 270)">
+        <rect width="660" height="130" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="20" y="25" font-size="12" fill="#1e293b" font-weight="600">✨ 功能亮点</text>
+        <text x="20" y="50" font-size="10" fill="#475569">• 自动适配各平台封面尺寸比例</text>
+        <text x="20" y="72" font-size="10" fill="#475569">• 一键批量导出多平台版本</text>
+        <text x="20" y="94" font-size="10" fill="#475569">• 实时预览各平台显示效果</text>
+        <text x="20" y="116" font-size="10" fill="#475569">• 持续更新支持新平台规格</text>
+        
+        <g transform="translate(450, 35)">
+          <rect width="190" height="60" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+          <text x="95" y="25" font-size="12" fill="#1e40af" font-weight="bold" text-anchor="middle">+8 平台</text>
+          <text x="95" y="45" font-size="10" fill="#1e40af" text-anchor="middle">更多平台持续接入</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(40, 475)">
+    <text x="0" y="0" font-size="10" fill="#94a3b8">支持 10+ 主流平台 · 自动适配 · 批量导出</text>
+  </g>
+</svg>

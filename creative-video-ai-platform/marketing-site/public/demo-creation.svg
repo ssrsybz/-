@@ -1,0 +1,127 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e2e8f0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="btnGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGradient)"/>
+
+  <g transform="translate(40, 30)">
+    <rect width="180" height="440" fill="white" rx="8" filter="url(#shadow)"/>
+    
+    <g transform="translate(20, 20)">
+      <text x="0" y="0" font-size="12" fill="#64748b" font-weight="600">工具面板</text>
+      
+      <g transform="translate(0, 25)">
+        <rect width="140" height="32" rx="6" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-width="1.5"/>
+        <circle cx="20" cy="16" r="6" fill="#3b82f6"/>
+        <text x="35" y="20" font-size="11" fill="#3b82f6" font-weight="600">添加元素</text>
+      </g>
+      
+      <g transform="translate(0, 65)">
+        <rect width="140" height="32" rx="6" fill="#f1f5f9"/>
+        <text x="20" y="20" font-size="11" fill="#64748b">模板库</text>
+      </g>
+      
+      <g transform="translate(0, 105)">
+        <rect width="140" height="32" rx="6" fill="#f1f5f9"/>
+        <text x="20" y="20" font-size="11" fill="#64748b">文字工具</text>
+      </g>
+      
+      <g transform="translate(0, 145)">
+        <rect width="140" height="32" rx="6" fill="url(#btnGradient)"/>
+        <text x="20" y="20" font-size="11" fill="white" font-weight="600">✨ AI 生成</text>
+      </g>
+      
+      <g transform="translate(0, 185)">
+        <rect width="140" height="32" rx="6" fill="#f1f5f9"/>
+        <text x="20" y="20" font-size="11" fill="#64748b">图片素材</text>
+      </g>
+      
+      <g transform="translate(0, 225)">
+        <rect width="140" height="32" rx="6" fill="#f1f5f9"/>
+        <text x="20" y="20" font-size="11" fill="#64748b">背景设置</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(240, 30)">
+    <rect width="160" height="440" fill="white" rx="8" filter="url(#shadow)"/>
+    
+    <g transform="translate(15, 20)">
+      <text x="0" y="0" font-size="12" fill="#64748b" font-weight="600">素材库</text>
+      
+      <rect x="0" y="15" width="130" height="28" rx="4" fill="#f1f5f9"/>
+      <text x="10" y="32" font-size="10" fill="#94a3b8">搜索模板...</text>
+      
+      <g transform="translate(0, 60)">
+        <rect width="60" height="80" rx="4" fill="#fef3c7"/>
+        <text x="30" y="45" font-size="24" fill="#d97706" text-anchor="middle">🎬</text>
+        <text x="30" y="65" font-size="9" fill="#92400e" text-anchor="middle">影视</text>
+      </g>
+      
+      <g transform="translate(70, 60)">
+        <rect width="60" height="80" rx="4" fill="#dbeafe"/>
+        <text x="30" y="45" font-size="24" fill="#2563eb" text-anchor="middle">📺</text>
+        <text x="30" y="65" font-size="9" fill="#1e40af" text-anchor="middle">科技</text>
+      </g>
+      
+      <g transform="translate(0, 150)">
+        <rect width="60" height="80" rx="4" fill="#fce7f3"/>
+        <text x="30" y="45" font-size="24" fill="#db2777" text-anchor="middle">🎨</text>
+        <text x="30" y="65" font-size="9" fill="#9d174d" text-anchor="middle">艺术</text>
+      </g>
+      
+      <g transform="translate(70, 150)">
+        <rect width="60" height="80" rx="4" fill="#dcfce7"/>
+        <text x="30" y="45" font-size="24" fill="#16a34a" text-anchor="middle">🎵</text>
+        <text x="30" y="65" font-size="9" fill="#166534" text-anchor="middle">音乐</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(420, 30)">
+    <rect width="340" height="440" fill="white" rx="8" filter="url(#shadow)"/>
+    
+    <g transform="translate(20, 20)">
+      <text x="0" y="0" font-size="12" fill="#64748b" font-weight="600">画布编辑区</text>
+      
+      <rect x="0" y="15" width="300" height="380" rx="4" fill="url(#bgGradient)" stroke="#e2e8f0" stroke-width="1"/>
+      
+      <g transform="translate(30, 50)">
+        <rect width="240" height="300" rx="8" fill="#1e293b"/>
+        
+        <g transform="translate(120, 150)">
+          <text x="0" y="0" font-size="28" fill="white" font-weight="bold" text-anchor="middle">创意视频</text>
+          <text x="0" y="35" font-size="18" fill="#60a5fa" text-anchor="middle">封面制作神器</text>
+          
+          <g transform="translate(-80, 80)">
+            <rect width="160" height="40" rx="20" fill="url(#btnGradient)"/>
+            <text x="80" y="25" font-size="14" fill="white" font-weight="600" text-anchor="middle">立即体验</text>
+          </g>
+        </g>
+        
+        <rect x="20" y="20" width="50" height="50" rx="4" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4"/>
+        <text x="25" y="32" font-size="8" fill="#3b82f6">LOGO</text>
+      </g>
+      
+      <g transform="translate(150, 405)">
+        <rect width="100" height="24" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="50" y="16" font-size="10" fill="#64748b" text-anchor="middle">1600×1000 px</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(40, 475)">
+    <text x="0" y="0" font-size="10" fill="#94a3b8">多平台封面制作 · AI智能生成 · 在线编辑</text>
+  </g>
+</svg>

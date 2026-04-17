@@ -1,0 +1,109 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e2e8f0"/>
+    </linearGradient>
+    <filter id="shadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="magicGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="50%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGradient4)"/>
+
+  <g transform="translate(40, 30)">
+    <rect width="720" height="440" fill="white" rx="8" filter="url(#shadow4)"/>
+    
+    <g transform="translate(30, 25)">
+      <text x="0" y="0" font-size="16" fill="#1e293b" font-weight="bold">AI 智能创作</text>
+      <text x="0" y="22" font-size="11" fill="#64748b">一键生成艺术字、创意素材和标题建议</text>
+      
+      <g transform="translate(0, 50)">
+        <rect width="660" height="100" rx="6" fill="#f1f5f9"/>
+        <text x="20" y="25" font-size="10" fill="#64748b">输入创意描述</text>
+        <rect x="20" y="35" width="620" height="45" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="30" y="62" font-size="12" fill="#1e293b">制作一个科技感十足的视频封面，主题是人工智能...</text>
+        <g transform="translate(580, 45)">
+          <rect width="50" height="26" rx="4" fill="url(#magicGrad)"/>
+          <text x="25" y="17" font-size="11" fill="white" font-weight="600" text-anchor="middle">生成</text>
+        </g>
+      </g>
+      
+      <g transform="translate(0, 170)">
+        <text x="0" y="0" font-size="13" fill="#1e293b" font-weight="600">AI 生成的艺术字样式</text>
+        
+        <g transform="translate(0, 20)">
+          <rect width="140" height="80" rx="6" fill="#1e293b"/>
+          <text x="70" y="50" font-size="28" fill="url(#textGrad)" font-weight="bold" text-anchor="middle">科技</text>
+        </g>
+        
+        <g transform="translate(160, 20)">
+          <rect width="140" height="80" rx="6" fill="#fef3c7"/>
+          <text x="70" y="50" font-size="28" fill="#92400e" font-weight="bold" text-anchor="middle">未来</text>
+        </g>
+        
+        <g transform="translate(320, 20)">
+          <rect width="140" height="80" rx="6" fill="#dbeafe"/>
+          <text x="70" y="50" font-size="28" fill="#1e40af" font-weight="bold" text-anchor="middle">创新</text>
+        </g>
+        
+        <g transform="translate(480, 20)">
+          <rect width="140" height="80" rx="6" fill="#fce7f3"/>
+          <text x="70" y="50" font-size="28" fill="#9d174d" font-weight="bold" text-anchor="middle">智能</text>
+        </g>
+      </g>
+      
+      <g transform="translate(0, 290)">
+        <text x="0" y="0" font-size="13" fill="#1e293b" font-weight="600">AI 推荐的创意素材</text>
+        
+        <g transform="translate(0, 20)">
+          <rect width="100" height="70" rx="4" fill="#fef3c7"/>
+          <text x="50" y="40" font-size="32" text-anchor="middle">🤖</text>
+        </g>
+        
+        <g transform="translate(120, 20)">
+          <rect width="100" height="70" rx="4" fill="#dbeafe"/>
+          <text x="50" y="40" font-size="32" text-anchor="middle">💡</text>
+        </g>
+        
+        <g transform="translate(240, 20)">
+          <rect width="100" height="70" rx="4" fill="#dcfce7"/>
+          <text x="50" y="40" font-size="32" text-anchor="middle">🚀</text>
+        </g>
+        
+        <g transform="translate(360, 20)">
+          <rect width="100" height="70" rx="4" fill="#fce7f3"/>
+          <text x="50" y="40" font-size="32" text-anchor="middle">✨</text>
+        </g>
+        
+        <g transform="translate(480, 20)">
+          <rect width="100" height="70" rx="4" fill="#e0e7ff"/>
+          <text x="50" y="40" font-size="32" text-anchor="middle">🎯</text>
+        </g>
+        
+        <g transform="translate(600, 20)">
+          <rect width="100" height="70" rx="4" fill="#ffedd5"/>
+          <text x="50" y="40" font-size="32" text-anchor="middle">🎬</text>
+        </g>
+      </g>
+      
+      <g transform="translate(0, 390)">
+        <rect width="660" height="36" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="20" y="23" font-size="10" fill="#64748b">💡 AI 建议：使用"科技"艺术字搭配🤖素材，点击率可提升 25%</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(40, 475)">
+    <text x="0" y="0" font-size="10" fill="#94a3b8">AI 艺术字生成 · 创意素材推荐 · 标题建议</text>
+  </g>
+</svg>
