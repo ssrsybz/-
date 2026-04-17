@@ -1,0 +1,14 @@
+{
+  "name": "creative-video-api-server",
+  "version": "1.0.0",
+  "description": "API server for B站视频采集器",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  }
+}
